@@ -1,0 +1,47 @@
+body {
+    height: 1000px;
+    background-color: #018dc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div {
+    border-bottom: 2px solid #a4a4a4;
+}
+
+.pic {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#lola {
+    height: 100px;
+}
+
+.div, .article {
+    display:flex;
+
+}
+
+.article {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3, p {
+    margin: 0px; 
+}
+
+p {
+    color: #6b6b6b;
+}
